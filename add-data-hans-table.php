@@ -8,7 +8,7 @@
 
     <div class="col-md-8 my-4 mx-auto animate__animated animate__zoomInDown">
 
-        <?php include 'class/view-all/view-all-data.php'; ?>
+        <?php include 'class/add-data/add-data-hansen.php'; ?>
 
     </div>
 

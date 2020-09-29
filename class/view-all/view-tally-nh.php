@@ -1,4 +1,5 @@
-<h1>View Tally</h1>
+
+        <h1>View Non Hansen Tally</h1>
         <table class="table table-hover">
             <thead>
                 <tr>
