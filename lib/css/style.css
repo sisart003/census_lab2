@@ -1,15 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
-.sidebar{
+.sidebar {
     user-select: none;
     position: fixed;
     width: 250px;
@@ -18,7 +18,7 @@ body{
     background: #1b1b1b;
 }
 
-.sidebar .text{
+.sidebar .text {
     color: white;
     font-size: 25px;
     font-weight: 600;
@@ -28,23 +28,23 @@ body{
     letter-spacing: 1px;
 }
 
-nav ul{
+nav ul {
     background: #1b1b1b;
     height: 100%;
     width: 100%;
     list-style: none;
 }
 
-nav ul li{
+nav ul li {
     line-height: 60px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-nav ul li:last-child{
+nav ul li:last-child {
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-nav ul li a{
+nav ul li a {
     position: relative;
     color: white;
     text-decoration: none;
@@ -56,54 +56,54 @@ nav ul li a{
     border-left: 3px solid transparent;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: #28df99;
     background: #1e1e1e;
     border-left-color: #28df99;
 }
 
-nav ul li.active a{
+nav ul li.active a {
     color: #28df99;
     background: #1e1e1e;
     border-left-color: #28df99;
 }
 
-nav ul ul{
+nav ul ul {
     position: static;
     display: none;
 }
 
-nav ul .feat-show.show{
+nav ul .feat-show.show {
     display: block;
 }
 
-nav ul .serv-show.show1{
+nav ul .serv-show.show1 {
     display: block;
 }
 
-nav ul ul li{
+nav ul ul li {
     line-height: 42px;
     border-bottom: none;
 }
 
-nav ul ul li a{
+nav ul ul li a {
     font-size: 17px;
     color: #e6e6e6;
     padding-left: 60px;
 }
 
-nav ul li.active ul li a{
+nav ul li.active ul li a {
     color: #e6e6e6;
     background: #1b1b1b;
     border-left-color: transparent;
 }
 
-nav ul ul li a:hover{
+nav ul ul li a:hover {
     color: #28df99 !important;
     background: #1e1e1e !important;
 }
 
-nav ul li a span{
+nav ul li a span {
     position: absolute;
     top: 50%;
     right: 20px;
@@ -112,7 +112,7 @@ nav ul li a span{
     transition: transform 0.4s;
 }
 
-nav ul li a:hover span{
+nav ul li a:hover span {
     transform: translateY(-50%) rotate(180deg);
 }
 
