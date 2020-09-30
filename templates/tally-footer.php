@@ -14,15 +14,14 @@
 
     $('nav ul li').click(function() {
         $(this).addClass("active").siblings().removeClass("active");
-    })
+    });
 
     // Datatables
     $(document).ready(function() {
         $('#example').DataTable({
-            "scrollY": "80vh",
-            "scrollCollapse": true,
+            "scrollY": "70vh",
             "bFilter": false,
-            "pageLength": 15,
+            "bPaginate": false,
             "bLengthChange": false,
             "bInfo": false,
             "bAutoWidth": false,
