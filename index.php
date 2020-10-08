@@ -6,7 +6,7 @@
         <?php include 'templates/sidebar.php'; ?>
     </div>
 
-    <div class="col-md-8 my-4 mx-auto animate__animated animate__zoomInDown">
+    <div class="col-md-8 my-4 mx-auto animate__animated animate__zoomIn">
 
         <?php include 'class/view-all/view-all-data.php'; ?>
 
