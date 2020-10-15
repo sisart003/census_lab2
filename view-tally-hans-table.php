@@ -40,251 +40,251 @@
             <tbody>
                 <tr>
                     <td>HGT/CBG</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>RBS</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>FBS</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>BUN</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>BUA</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>CHOLESTEROL</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>CREATININE</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>TOTAL PROTEIN</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>ALBUMIN</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>GLOBULIN</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>A/G RATIO</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>SGOT</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td>></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>SGPT</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td>></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>ALP</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>TRIGLY</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>HDL-CHOLE</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>LDL-CHOLE</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>VLDL</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>SODIUM</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>POTASSIUM</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>CHLORIDE</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>HBAIC</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>AMYLASE</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>ICA</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>OGTT</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>LDH</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>MG</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>TOTAL BILIRUBIN</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>DIRECT-BILI</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>INDIRECT-BILI</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <td>PHOSPHOROUS</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
-                    <td>1</td>
-                    <td>Non Hansen</td>
-                    <td>Edit | Delete</td>
+                    <td>PHOSPHORUS</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </tbody>
         </table>

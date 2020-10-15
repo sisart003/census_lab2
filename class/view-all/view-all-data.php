@@ -17,12 +17,8 @@
             <tbody>
             <?php
 
-$sql = "SELECT * FROM patient_table ORDER BY `id` DESC";
-$result = $con->query($sql);
-
-
-        ?> 
-                    <?php if ($result->num_rows > 0) {
+                $sql = "SELECT * FROM patient_table ORDER BY `id` DESC";
+                $result = $con->query($sql);
                     // output data of each row
                     while($row = $result->fetch_assoc()) {?>
                 <tr>
@@ -32,14 +28,13 @@ $result = $con->query($sql);
                     <td><?= strtoupper($row["patient_type"]); ?></td>
                     <td><?= strtoupper($row["gender"]); ?></td>
                     <td>
-                        <a href="../htdocs/excel-proto2/class/delete-single-data.php?id=<?=$row['id']?>" class="btn btn-danger">Delete</a>
+                        <a href="../excel-proto2/config/delete-single-data.php?id=<?=$row['id']?>" class="btn btn-danger">Delete</a>
                     </td>
                     
                 </tr>
                 <?php
         
-                        }
-                    }?>
+                        }?>
             </tbody>
         </table>
         
@@ -48,6 +43,10 @@ $result = $con->query($sql);
 // SELECT u.*, s.*
 // FROM users u
 //     inner join statuses s on u.status_id = s.id
-// WHERE u.status_id = 2
+// WHERE u.status_id =  
+// SELECT SUM(hgt = 'hans_hgt') AS hgt_hansom_tally FROM census_lab c INNER JOIN patient_table p ON p.id = c.census_id WHERE p.patient_type = 'opd' AND p.gender = 'male'
+
+
+
 ?>
 

@@ -1,13 +1,50 @@
-<?php include 'templates/header.php'; ?>
+<?php
+    ob_start();
+    session_start();
+
+    $con=mysqli_connect("localhost", "root", "", "census_lab");
+
+        if(mysqli_connect_errno()){
+            echo "Failed to Connect : ".mysqli_connect_error();
+        }
 
 
-<div class="row">
-    <div class="col-md-2">
-        <?php include 'templates/sidebar.php'; ?>
-    </div>
+    $sql = "SELECT 
+                *
+            FROM census_lab c 
+            INNER JOIN patient_table p ON p.id = c.census_id
+            ";
 
-    <div class="col-md-8 my-4 mx-auto animate__animated animate__zoomIn">
-        <h1>View Non Hansen Tally</h1>
+        
+    $result = $con->query($sql);
+
+    $row = $result->fetch_assoc();
+
+    // $hans_hgt = $row["gt_hansom_tally"];
+    // $hans_globulin = $row["globulin_hansom_tally"];
+    // $hans_sgot = $row['sgot_hansom_tally'];
+
+    
+    $con->close();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<body>
+    
+
+<!-- <div class="row">
+
+    <div class="col-md-10 my-4 mx-auto animate__animated animate__zoomIn">
+
+
+        <h1>View Hansen Tally</h1>
         <form class="form-inline">
             <label class="sr-only" for="inlineFormInputName2">Name</label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2">
@@ -38,7 +75,7 @@
             <tbody>
                 <tr>
                     <td>HGT/CBG</td>
-                    <td></td>
+                    <td><?= $row['hgt_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -46,7 +83,7 @@
                 </tr>
                 <tr>
                     <td>RBS</td>
-                    <td></td>
+                    <td><?= $row['rbs_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -54,7 +91,7 @@
                 </tr>
                 <tr>
                     <td>FBS</td>
-                    <td></td>
+                    <td><?= $row['fbs_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -62,7 +99,7 @@
                 </tr>
                 <tr>
                     <td>BUN</td>
-                    <td></td>
+                    <td><?= $row['bun_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -70,7 +107,7 @@
                 </tr>
                 <tr>
                     <td>BUA</td>
-                    <td></td>
+                    <td><?= $row['bua_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -78,7 +115,7 @@
                 </tr>
                 <tr>
                     <td>CHOLESTEROL</td>
-                    <td></td>
+                    <td><?= $row['cholesterol_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -86,7 +123,7 @@
                 </tr>
                 <tr>
                     <td>CREATININE</td>
-                    <td></td>
+                    <td><?= $row['creatinine_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -94,7 +131,7 @@
                 </tr>
                 <tr>
                     <td>TOTAL PROTEIN</td>
-                    <td></td>
+                    <td><?= $row['total_protein_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -102,7 +139,7 @@
                 </tr>
                 <tr>
                     <td>ALBUMIN</td>
-                    <td></td>
+                    <td><?= $row['albumin_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -110,7 +147,7 @@
                 </tr>
                 <tr>
                     <td>GLOBULIN</td>
-                    <td></td>
+                    <td><?= $row['globulin_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -118,7 +155,7 @@
                 </tr>
                 <tr>
                     <td>A/G RATIO</td>
-                    <td></td>
+                    <td><?= $row['ag_ratio_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -126,7 +163,7 @@
                 </tr>
                 <tr>
                     <td>SGOT</td>
-                    <td></td>
+                    <td><?= $row['sgot_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -134,7 +171,7 @@
                 </tr>
                 <tr>
                     <td>SGPT</td>
-                    <td></td>
+                    <td><?= $row['sgpt_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -142,7 +179,7 @@
                 </tr>
                 <tr>
                     <td>ALP</td>
-                    <td></td>
+                    <td><?= $row['alp_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -150,7 +187,7 @@
                 </tr>
                 <tr>
                     <td>TRIGLY</td>
-                    <td></td>
+                    <td><?= $row['trigly_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -158,7 +195,7 @@
                 </tr>
                 <tr>
                     <td>HDL-CHOLE</td>
-                    <td></td>
+                    <td><?= $row['hdl_chole_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -166,7 +203,7 @@
                 </tr>
                 <tr>
                     <td>LDL-CHOLE</td>
-                    <td></td>
+                    <td><?= $row['ldl_chole_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -174,7 +211,7 @@
                 </tr>
                 <tr>
                     <td>VLDL</td>
-                    <td></td>
+                    <td><?= $row['vldl_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -182,7 +219,7 @@
                 </tr>
                 <tr>
                     <td>SODIUM</td>
-                    <td></td>
+                    <td><?= $row['sodium_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -190,7 +227,7 @@
                 </tr>
                 <tr>
                     <td>POTASSIUM</td>
-                    <td></td>
+                    <td><?= $row['potassium_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -198,7 +235,7 @@
                 </tr>
                 <tr>
                     <td>CHLORIDE</td>
-                    <td></td>
+                    <td><?= $row['chloride_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -206,7 +243,7 @@
                 </tr>
                 <tr>
                     <td>HBAIC</td>
-                    <td></td>
+                    <td><?= $row['hbaic_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -214,7 +251,7 @@
                 </tr>
                 <tr>
                     <td>AMYLASE</td>
-                    <td></td>
+                    <td><?= $row['amylase_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -222,7 +259,7 @@
                 </tr>
                 <tr>
                     <td>ICA</td>
-                    <td></td>
+                    <td><?= $row['ica_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -230,7 +267,7 @@
                 </tr>
                 <tr>
                     <td>OGTT</td>
-                    <td></td>
+                    <td><?= $row['ogtt_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -238,7 +275,7 @@
                 </tr>
                 <tr>
                     <td>LDH</td>
-                    <td></td>
+                    <td><?= $row['ldh_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -246,7 +283,7 @@
                 </tr>
                 <tr>
                     <td>MG</td>
-                    <td></td>
+                    <td><?= $row['mg_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -254,7 +291,7 @@
                 </tr>
                 <tr>
                     <td>TOTAL BILIRUBIN</td>
-                    <td></td>
+                    <td><?= $row['total_bilirubin_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -262,7 +299,7 @@
                 </tr>
                 <tr>
                     <td>DIRECT-BILI</td>
-                    <td></td>
+                    <td><?= $row['direct_bili_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -270,7 +307,7 @@
                 </tr>
                 <tr>
                     <td>INDIRECT-BILI</td>
-                    <td></td>
+                    <td><?= $row['indirect_bili_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -278,7 +315,7 @@
                 </tr>
                 <tr>
                     <td>PHOSPHORUS</td>
-                    <td></td>
+                    <td><?= $row['phosphorus_hansom_tally'] ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -287,6 +324,17 @@
             </tbody>
         </table>
 
-    </div>
+    </div> -->
 
-    <?php include 'templates/tally-footer.php'; ?>
+    <?php
+
+        
+
+    ?>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

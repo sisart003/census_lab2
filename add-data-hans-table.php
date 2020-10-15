@@ -12,21 +12,19 @@
             <table class="table table-hover table-bordered table-striped">
                 <thead>
                     <tr>
-                        <th>
+                        <th colspan="2">
                             <input type="hidden" name="disease_type" value="hansen">
                             <select class="custom-select custom-select-md mb-3" name="patient_type">
                                 <option value="opd">OPD</option>
                                 <option value="in-patient">In Patient</option>
                             </select>
                         </th>
-                        <th>
+                        <th colspan="2">
                             <select class="custom-select custom-select-md mb-3" name="patient_gender">
                                 <option value="male">Male</option>
                                 <option value="female">Female</option>
                             </select>
                         </th>
-                        <th></th>
-                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
